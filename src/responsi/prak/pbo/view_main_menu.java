@@ -22,12 +22,12 @@ public class view_main_menu extends JFrame{
         setLayout(null);
         setSize(200,200);
         add(judul);
-        judul.setBounds(60, 5, 100, 30);
+        judul.setBounds(60, 20, 100, 30);
         
         add(btnTambah);
-        btnTambah.setBounds(20, 30, 130, 30);
+        btnTambah.setBounds(20, 50, 130, 30);
         
         add(btnLihat);
-        btnLihat.setBounds(20, 60, 130,30);
+        btnLihat.setBounds(20, 90, 130,30);
 }
 }
